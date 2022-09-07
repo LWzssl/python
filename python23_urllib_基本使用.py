@@ -18,4 +18,6 @@ response = urllib.request.urlopen(url)
 # 将二进制的数据转化为字符串
 # 进行解码操作 decode('编码的格式')
 contents = response.read().decode('utf-8')
+
+# (4) 打印数据
 print(contents)
